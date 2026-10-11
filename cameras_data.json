@@ -1,0 +1,104 @@
+[
+  {
+    "id": "cam_ec0e41_1",
+    "camera_id": "cam_ec0e41_1",
+    "user_id": "usr_e47d35ec0e41",
+    "user_email": "vyzntechnologies@gmail.com",
+    "name": "Main Gate & Entrance",
+    "status": "online",
+    "rtsp_url": "rtsp://192.168.1.64:554/ch1/main",
+    "target_fps": 15,
+    "fps_measured": 15,
+    "is_night_ir": false,
+    "snapshot_url": "/api/cameras/cam_ec0e41_1/snapshot.jpg",
+    "stream_url": "/api/cameras/cam_ec0e41_1/mjpeg",
+    "area_count": 2,
+    "ignored_moments_count": 0,
+    "areas": [
+      {
+        "id": "area_1",
+        "name": "Vehicle Driveway",
+        "color": "#0ea5e9"
+      },
+      {
+        "id": "area_2",
+        "name": "Pedestrian Turnstile",
+        "color": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "cam_ec0e41_2",
+    "camera_id": "cam_ec0e41_2",
+    "user_id": "usr_e47d35ec0e41",
+    "user_email": "vyzntechnologies@gmail.com",
+    "name": "North Perimeter & Parking",
+    "status": "online",
+    "rtsp_url": "rtsp://192.168.1.65:554/live/ch0",
+    "target_fps": 15,
+    "fps_measured": 15,
+    "is_night_ir": false,
+    "snapshot_url": "/api/cameras/cam_ec0e41_2/snapshot.jpg",
+    "stream_url": "/api/cameras/cam_ec0e41_2/mjpeg",
+    "area_count": 1,
+    "ignored_moments_count": 0,
+    "areas": [
+      {
+        "id": "area_3",
+        "name": "Emergency Fire Exit",
+        "color": "#f59e0b"
+      }
+    ]
+  },
+  {
+    "id": "cam_d3917e_1",
+    "camera_id": "cam_d3917e_1",
+    "user_id": "usr_490f6bd3917e",
+    "user_email": "tapise.utkarsh@gmail.com",
+    "name": "Main Gate & Entrance",
+    "status": "online",
+    "rtsp_url": "rtsp://192.168.1.64:554/ch1/main",
+    "target_fps": 15,
+    "fps_measured": 15,
+    "is_night_ir": false,
+    "snapshot_url": "/api/cameras/cam_d3917e_1/snapshot.jpg",
+    "stream_url": "/api/cameras/cam_d3917e_1/mjpeg",
+    "area_count": 2,
+    "ignored_moments_count": 0,
+    "areas": [
+      {
+        "id": "area_1",
+        "name": "Vehicle Driveway",
+        "color": "#0ea5e9"
+      },
+      {
+        "id": "area_2",
+        "name": "Pedestrian Turnstile",
+        "color": "#10b981"
+      }
+    ]
+  },
+  {
+    "id": "cam_d3917e_2",
+    "camera_id": "cam_d3917e_2",
+    "user_id": "usr_490f6bd3917e",
+    "user_email": "tapise.utkarsh@gmail.com",
+    "name": "North Perimeter & Parking",
+    "status": "online",
+    "rtsp_url": "rtsp://192.168.1.65:554/live/ch0",
+    "target_fps": 15,
+    "fps_measured": 15,
+    "is_night_ir": false,
+    "snapshot_url": "/api/cameras/cam_d3917e_2/snapshot.jpg",
+    "stream_url": "/api/cameras/cam_d3917e_2/mjpeg",
+    "area_count": 1,
+    "ignored_moments_count": 0,
+    "areas": [
+      {
+        "id": "area_3",
+        "name": "Emergency Fire Exit",
+        "color": "#f59e0b"
+      }
+    ]
+  }
+]

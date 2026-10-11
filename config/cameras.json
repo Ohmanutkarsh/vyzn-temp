@@ -1,0 +1,55 @@
+[
+  {
+    "camera_id": "cam_cash_counter",
+    "name": "Cash Counter",
+    "rtsp_url": "sim://cash",
+    "enabled": true,
+    "location_id": "loc_primary",
+    "target_fps": 4.0,
+    "capture_fps": 15.0,
+    "ai_inference_fps": 4.0,
+    "downscale_width": 640,
+    "downscale_height": 360,
+    "is_night_ir": false,
+    "owner_email": null,
+    "business_hours": {
+      "enabled": true,
+      "start_hour": 9,
+      "start_minute": 0,
+      "end_hour": 21,
+      "end_minute": 0
+    },
+    "restricted_zones": [
+      {
+        "name": "cash_drawer_box_test",
+        "points": [
+          [
+            0.6,
+            0.4
+          ],
+          [
+            0.85,
+            0.4
+          ],
+          [
+            0.85,
+            0.7
+          ],
+          [
+            0.6,
+            0.7
+          ]
+        ]
+      }
+    ],
+    "privacy_zones": [],
+    "watch_areas": [],
+    "osd_exclude_polygon": null,
+    "start_motion_threshold": null,
+    "continue_motion_threshold": null,
+    "pre_roll_sec": null,
+    "post_roll_sec": null,
+    "merge_gap_sec": null,
+    "max_clip_duration_sec": null
+  }
+]

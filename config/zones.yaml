@@ -1,0 +1,149 @@
+zones:
+  cam_corridor_restricted_vault:
+    camera_id: cam_corridor
+    description: restricted_zone geofence created via UI studio
+    polygon:
+    - - 0.844
+      - 0.447
+    - - 0.234
+      - 0.389
+    - - 0.277
+      - 0.697
+    schedule_mode: restricted_all_times
+    weight: 25
+    zone_type: restricted_zone
+  cam_phone_1789147932161_restricted_vault:
+    camera_id: cam_phone_1789147932161
+    description: restricted_zone geofence created via UI studio
+    polygon:
+    - - 0.714
+      - 0.753
+    - - 0.433
+      - 0.531
+    - - 0.433
+      - 0.55
+    - - 0.377
+      - 0.814
+    - - 0.377
+      - 0.831
+    - - 0.867
+      - 0.314
+    - - 0.678
+      - 0.3
+    - - 0.458
+      - 0.228
+    - - 0.306
+      - 0.256
+    - - 0.823
+      - 0.578
+    - - 0.647
+      - 0.167
+    - - 0.338
+      - 0.442
+    - - 0.887
+      - 0.356
+    - - 0.728
+      - 0.156
+    - - 0.317
+      - 0.6
+    - - 0.858
+      - 0.639
+    - - 0.472
+      - 0.056
+    - - 0.583
+      - 0.897
+    - - 0.858
+      - 0.786
+    - - 0.237
+      - 0.386
+    schedule_mode: restricted_all_times
+    weight: 25
+    zone_type: restricted_zone
+  cam_webcam_0_restricted_vault:
+    camera_id: cam_webcam_0
+    description: restricted_zone geofence created via UI studio
+    polygon:
+    - - 0.097
+      - 0.2
+    - - 0.098
+      - 0.903
+    - - 0.398
+      - 0.903
+    - - 0.397
+      - 0.206
+    schedule_mode: restricted_all_times
+    weight: 25
+    zone_type: restricted_zone
+  cash_counter:
+    camera_id: cam_cash_counter
+    description: Cash drawer zone - generates immediate alert on loitering > 15s
+    polygon:
+    - - 0.6
+      - 0.4
+    - - 0.85
+      - 0.4
+    - - 0.85
+      - 0.7
+    - - 0.6
+      - 0.7
+    schedule_mode: restricted_all_times
+    weight: 20
+  cash_drawer_box_test:
+    camera_id: cam_cash_counter
+    description: Test cash counter zone
+    polygon:
+    - - 0.6
+      - 0.4
+    - - 0.85
+      - 0.4
+    - - 0.85
+      - 0.7
+    - - 0.6
+      - 0.7
+    schedule_mode: restricted_all_times
+    weight: 25
+    zone_type: restricted_zone
+  entrance_shutter:
+    camera_id: cam_shutter_night
+    description: Main shutter perimeter - alerts active strictly between 21:00 and
+      08:30
+    polygon:
+    - - 0.05
+      - 0.2
+    - - 0.4
+      - 0.2
+    - - 0.4
+      - 0.85
+    - - 0.05
+      - 0.85
+    schedule_mode: after_hours_only
+    weight: 15
+  inventory_backroom:
+    camera_id: cam_corridor
+    description: Restricted inventory vault - high security zone
+    polygon:
+    - - 0.7
+      - 0.1
+    - - 0.95
+      - 0.1
+    - - 0.95
+      - 0.6
+    - - 0.7
+      - 0.6
+    schedule_mode: restricted_all_times
+    weight: 25
+  privacy_front_street:
+    camera_id: cam_test
+    description: privacy_mask on cam_test
+    polygon:
+    - - 0.1
+      - 0.1
+    - - 0.4
+      - 0.1
+    - - 0.4
+      - 0.4
+    - - 0.1
+      - 0.4
+    schedule_mode: restricted_all_times
+    weight: 20
+    zone_type: privacy_mask

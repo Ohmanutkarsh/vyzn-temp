@@ -1,0 +1,67 @@
+{
+  "sess_f7ec83337df82910fb8deadb2aeaa609c506e54fcb29f6b4": {
+    "user": {
+      "id": "usr_e47d35ec0e41",
+      "email": "vyzntechnologies@gmail.com",
+      "full_name": "Society Administrator",
+      "business_name": "Premises / Society",
+      "business_type": "society",
+      "role": "shopkeeper",
+      "phone_e164": "+91 98201 12345",
+      "phone": "+91 98201 12345",
+      "phone_verified": true,
+      "security_pin": "202600",
+      "telegram_status": "connected",
+      "telegram_chat_id": "817294021",
+      "telegram_username": "VyznUser1",
+      "telegram_alerts_enabled": true,
+      "password_hash": "a3a980062dc93db757c0cf0b042e1bd3:7cb9b5a67bbe60cf50a568791e4d3abc07bfe4fbf7f119c42cb6a6adc5fa09be",
+      "telegram_linked_at_ms": 1791747502435
+    },
+    "createdAt": 1791747459788,
+    "expiresAt": 1792957059788
+  },
+  "sess_b54a6ccc2956c0b08377919b6b2f776edadb6fadc2474e11": {
+    "user": {
+      "id": "usr_e47d35ec0e41",
+      "email": "vyzntechnologies@gmail.com",
+      "full_name": "Society Administrator",
+      "business_name": "Premises / Society",
+      "business_type": "society",
+      "role": "shopkeeper",
+      "phone_e164": "+91 98201 12345",
+      "phone": "+91 98201 12345",
+      "phone_verified": true,
+      "security_pin": "202600",
+      "telegram_status": "connected",
+      "telegram_chat_id": "817294021",
+      "telegram_username": "VyznUser1",
+      "telegram_alerts_enabled": true,
+      "password_hash": "a3a980062dc93db757c0cf0b042e1bd3:7cb9b5a67bbe60cf50a568791e4d3abc07bfe4fbf7f119c42cb6a6adc5fa09be",
+      "telegram_linked_at_ms": 1791747502435
+    },
+    "createdAt": 1791747546078,
+    "expiresAt": 1792957146078
+  },
+  "sess_2c2385a5ae6b22ffae3395b77ca5b13e628a864f24248e10": {
+    "user": {
+      "id": "usr_490f6bd3917e",
+      "email": "tapise.utkarsh@gmail.com",
+      "full_name": "Society Administrator",
+      "business_name": "Premises / Society",
+      "business_type": "society",
+      "role": "shopkeeper",
+      "phone_e164": "",
+      "phone": "",
+      "phone_verified": false,
+      "security_pin": "202600",
+      "telegram_status": "not_linked",
+      "telegram_chat_id": null,
+      "telegram_username": null,
+      "telegram_alerts_enabled": true,
+      "password_hash": "a0e9f193bddf6179c0314535bbdd7770:5f3b9a20c9e6d370028eb8728405626e74b07b9bfb98e00ae73b7455754ed35a"
+    },
+    "createdAt": 1791747564700,
+    "expiresAt": 1792957164700
+  }
+}

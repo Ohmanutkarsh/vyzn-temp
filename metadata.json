@@ -1,0 +1,7 @@
+{
+  "name": "VYZN",
+  "description": "VYZN AI Retail & Premises Surveillance Console — Edge-first AI analytics and 72-hour automated purge",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
